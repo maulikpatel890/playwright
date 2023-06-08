@@ -1,0 +1,20 @@
+{
+  "name": "playright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:smoke" : "npx playwright test --project=chromium --workers=1 -g @smoke",
+    "test:regression" : "playwright test --project=chromium --workers=2 -g @regression"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

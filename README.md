@@ -10,9 +10,10 @@ This is working demo of automating website using playwright tool and Typescript.
 5. It uses the typescript as programming language (default langauge binding of playwright).
 6. You can also record the tests, tweaks them as needed and run them.
 7. You can execute tests in parallel or sequencial as needed.
-8. You can run specific tests (e.g. smoke tests, regression tests, login tests, etc).
-9. You can run configure browsers, parallel threads, etc. in the playwright config file.
-9. You can also integrate this test suite with CI/CD pipeline (e.g. github actions).
+8. It generates HTML reports with screenshots/recordings after finishing run.
+9. You can run specific tests (e.g. smoke tests, regression tests, login tests, etc).
+10. You can run configure browsers, parallel threads, etc. in the playwright config file.
+11. You can also integrate this test suite with CI/CD pipeline (e.g. github actions).
 
 
 **Run tests in parallel:**
